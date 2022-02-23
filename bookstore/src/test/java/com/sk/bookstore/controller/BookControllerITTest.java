@@ -1,4 +1,4 @@
-package com.sk.bookstore.controlleres;
+package com.sk.bookstore.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,7 @@ public class BookControllerITTest {
     @Test
     public void getHello() throws Exception {
         ResponseEntity<String> response = template.getForEntity("/", String.class);
-        assertEquals("Greetings from Spring Boot!", response.getBody());
+        assertEquals("Welcome to the Book Store!", response.getBody());
     }
 
 }

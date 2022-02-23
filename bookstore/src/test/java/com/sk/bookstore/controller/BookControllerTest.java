@@ -1,4 +1,4 @@
-package com.sk.bookstore.controlleres;
+package com.sk.bookstore.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
